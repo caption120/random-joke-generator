@@ -1,7 +1,6 @@
 let jokec = document.getElementById("joke");
 let btn = document.getElementById("btn");
 
-let url = "https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,religious,political,racist,sexist,explicit";
 
 let getjoke = () => {
     jokec.classList.remove("fade");
